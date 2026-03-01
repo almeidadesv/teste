@@ -8,5 +8,7 @@ const senhaCadastrada = "1234";
 let tentativaUsuario = "admin";
 let tentativaSenha = "1234";
 
+//Só juntei as mensagens pra caso o login falhasse, apenas a certa seria mostrada
+
 if ((tentativaUsuario == usuarioCadastrado && tentativaSenha == senhaCadastrada)) console.log("Login realizado com sucesso!");
 else console.log("Login incorreto! Tente novamente mais tarde.");
