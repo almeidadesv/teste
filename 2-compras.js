@@ -7,11 +7,17 @@ const produto = {
   estoque: 10,
 };
 
-function aplicarDesconto (preco) {
-  return preco = (produto.preco) - 20
-}
+//mudei o nome da variavel valor pra preco e atribui o valor nela
 
-const precoFinal = aplicarDesconto(preco);
+function aplicarDesconto (preco) {
+  return preco = (produto.preco) - 20;
+}
+  
+//mudei a variavel preco pra produto.preco pra aplicar o desconto no valor do produto
+
+const precoFinal = aplicarDesconto(produto.preco);
+
+//adicionei uma variavel nova pra atualizar o estoque pós realização da compra
 
 const compraRealizada = produto.estoque - 1;
 
